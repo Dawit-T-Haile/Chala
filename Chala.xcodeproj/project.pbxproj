@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D7A74612C377B800055BF6E /* Chala Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9D7A74602C377B800055BF6E /* Chala Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9D7A74662C377B800055BF6E /* ChalaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7A74652C377B800055BF6E /* ChalaApp.swift */; };
+		9D7A74682C377B800055BF6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7A74672C377B800055BF6E /* ContentView.swift */; };
+		9D7A746A2C377B800055BF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7A74692C377B800055BF6E /* Assets.xcassets */; };
+		9D7A746D2C377B800055BF6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7A746C2C377B800055BF6E /* Preview Assets.xcassets */; };
+		9D7A74772C377B810055BF6E /* Chala_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7A74762C377B810055BF6E /* Chala_Watch_AppTests.swift */; };
+		9D7A74812C377B810055BF6E /* Chala_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7A74802C377B810055BF6E /* Chala_Watch_AppUITests.swift */; };
+		9D7A74832C377B810055BF6E /* Chala_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7A74822C377B810055BF6E /* Chala_Watch_AppUITestsLaunchTests.swift */; };
+		9D7A74942C3A23810055BF6E /* Workouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7A74932C3A23810055BF6E /* Workouts.swift */; };
+		9D7A74962C3A2B250055BF6E /* ListOfWorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7A74952C3A2B250055BF6E /* ListOfWorkoutsView.swift */; };
+		9D7A74982C3A30390055BF6E /* NewWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7A74972C3A30390055BF6E /* NewWorkoutView.swift */; };
+		9D7A749A2C3A34DD0055BF6E /* WorkoutSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7A74992C3A34DD0055BF6E /* WorkoutSessionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D7A74622C377B800055BF6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D7A74542C377B800055BF6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D7A745F2C377B800055BF6E;
+			remoteInfo = "Chala Watch App";
+		};
+		9D7A74732C377B810055BF6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D7A74542C377B800055BF6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D7A745F2C377B800055BF6E;
+			remoteInfo = "Chala Watch App";
+		};
+		9D7A747D2C377B810055BF6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D7A74542C377B800055BF6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D7A745F2C377B800055BF6E;
+			remoteInfo = "Chala Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9D7A74892C377B810055BF6E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9D7A74612C377B800055BF6E /* Chala Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9D7A745A2C377B800055BF6E /* Chala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7A74602C377B800055BF6E /* Chala Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chala Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7A74652C377B800055BF6E /* ChalaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChalaApp.swift; sourceTree = "<group>"; };
+		9D7A74672C377B800055BF6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9D7A74692C377B800055BF6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D7A746C2C377B800055BF6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D7A74722C377B810055BF6E /* Chala Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chala Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7A74762C377B810055BF6E /* Chala_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chala_Watch_AppTests.swift; sourceTree = "<group>"; };
+		9D7A747C2C377B810055BF6E /* Chala Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chala Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7A74802C377B810055BF6E /* Chala_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chala_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		9D7A74822C377B810055BF6E /* Chala_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chala_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D7A74932C3A23810055BF6E /* Workouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workouts.swift; sourceTree = "<group>"; };
+		9D7A74952C3A2B250055BF6E /* ListOfWorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfWorkoutsView.swift; sourceTree = "<group>"; };
+		9D7A74972C3A30390055BF6E /* NewWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutView.swift; sourceTree = "<group>"; };
+		9D7A74992C3A34DD0055BF6E /* WorkoutSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSessionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D7A745D2C377B800055BF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7A746F2C377B810055BF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7A74792C377B810055BF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D7A74532C377B800055BF6E = {
+			isa = PBXGroup;
+			children = (
+				9D7A74642C377B800055BF6E /* Chala Watch App */,
+				9D7A74752C377B810055BF6E /* Chala Watch AppTests */,
+				9D7A747F2C377B810055BF6E /* Chala Watch AppUITests */,
+				9D7A745B2C377B800055BF6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D7A745B2C377B800055BF6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D7A745A2C377B800055BF6E /* Chala.app */,
+				9D7A74602C377B800055BF6E /* Chala Watch App.app */,
+				9D7A74722C377B810055BF6E /* Chala Watch AppTests.xctest */,
+				9D7A747C2C377B810055BF6E /* Chala Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D7A74642C377B800055BF6E /* Chala Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				9D7A74932C3A23810055BF6E /* Workouts.swift */,
+				9D7A74652C377B800055BF6E /* ChalaApp.swift */,
+				9D7A74672C377B800055BF6E /* ContentView.swift */,
+				9D7A74952C3A2B250055BF6E /* ListOfWorkoutsView.swift */,
+				9D7A74972C3A30390055BF6E /* NewWorkoutView.swift */,
+				9D7A74992C3A34DD0055BF6E /* WorkoutSessionView.swift */,
+				9D7A74692C377B800055BF6E /* Assets.xcassets */,
+				9D7A746B2C377B800055BF6E /* Preview Content */,
+			);
+			path = "Chala Watch App";
+			sourceTree = "<group>";
+		};
+		9D7A746B2C377B800055BF6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9D7A746C2C377B800055BF6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9D7A74752C377B810055BF6E /* Chala Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D7A74762C377B810055BF6E /* Chala_Watch_AppTests.swift */,
+			);
+			path = "Chala Watch AppTests";
+			sourceTree = "<group>";
+		};
+		9D7A747F2C377B810055BF6E /* Chala Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D7A74802C377B810055BF6E /* Chala_Watch_AppUITests.swift */,
+				9D7A74822C377B810055BF6E /* Chala_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Chala Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D7A74592C377B800055BF6E /* Chala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D7A748A2C377B810055BF6E /* Build configuration list for PBXNativeTarget "Chala" */;
+			buildPhases = (
+				9D7A74582C377B800055BF6E /* Resources */,
+				9D7A74892C377B810055BF6E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D7A74632C377B800055BF6E /* PBXTargetDependency */,
+			);
+			name = Chala;
+			productName = Chala;
+			productReference = 9D7A745A2C377B800055BF6E /* Chala.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		9D7A745F2C377B800055BF6E /* Chala Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D7A74862C377B810055BF6E /* Build configuration list for PBXNativeTarget "Chala Watch App" */;
+			buildPhases = (
+				9D7A745C2C377B800055BF6E /* Sources */,
+				9D7A745D2C377B800055BF6E /* Frameworks */,
+				9D7A745E2C377B800055BF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chala Watch App";
+			productName = "Chala Watch App";
+			productReference = 9D7A74602C377B800055BF6E /* Chala Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D7A74712C377B810055BF6E /* Chala Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D7A748D2C377B810055BF6E /* Build configuration list for PBXNativeTarget "Chala Watch AppTests" */;
+			buildPhases = (
+				9D7A746E2C377B810055BF6E /* Sources */,
+				9D7A746F2C377B810055BF6E /* Frameworks */,
+				9D7A74702C377B810055BF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D7A74742C377B810055BF6E /* PBXTargetDependency */,
+			);
+			name = "Chala Watch AppTests";
+			productName = "Chala Watch AppTests";
+			productReference = 9D7A74722C377B810055BF6E /* Chala Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D7A747B2C377B810055BF6E /* Chala Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D7A74902C377B810055BF6E /* Build configuration list for PBXNativeTarget "Chala Watch AppUITests" */;
+			buildPhases = (
+				9D7A74782C377B810055BF6E /* Sources */,
+				9D7A74792C377B810055BF6E /* Frameworks */,
+				9D7A747A2C377B810055BF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D7A747E2C377B810055BF6E /* PBXTargetDependency */,
+			);
+			name = "Chala Watch AppUITests";
+			productName = "Chala Watch AppUITests";
+			productReference = 9D7A747C2C377B810055BF6E /* Chala Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D7A74542C377B800055BF6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					9D7A74592C377B800055BF6E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					9D7A745F2C377B800055BF6E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					9D7A74712C377B810055BF6E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9D7A745F2C377B800055BF6E;
+					};
+					9D7A747B2C377B810055BF6E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9D7A745F2C377B800055BF6E;
+					};
+				};
+			};
+			buildConfigurationList = 9D7A74572C377B800055BF6E /* Build configuration list for PBXProject "Chala" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D7A74532C377B800055BF6E;
+			productRefGroup = 9D7A745B2C377B800055BF6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D7A74592C377B800055BF6E /* Chala */,
+				9D7A745F2C377B800055BF6E /* Chala Watch App */,
+				9D7A74712C377B810055BF6E /* Chala Watch AppTests */,
+				9D7A747B2C377B810055BF6E /* Chala Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D7A74582C377B800055BF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7A745E2C377B800055BF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7A746D2C377B800055BF6E /* Preview Assets.xcassets in Resources */,
+				9D7A746A2C377B800055BF6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7A74702C377B810055BF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7A747A2C377B810055BF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D7A745C2C377B800055BF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7A74682C377B800055BF6E /* ContentView.swift in Sources */,
+				9D7A74662C377B800055BF6E /* ChalaApp.swift in Sources */,
+				9D7A74982C3A30390055BF6E /* NewWorkoutView.swift in Sources */,
+				9D7A749A2C3A34DD0055BF6E /* WorkoutSessionView.swift in Sources */,
+				9D7A74962C3A2B250055BF6E /* ListOfWorkoutsView.swift in Sources */,
+				9D7A74942C3A23810055BF6E /* Workouts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7A746E2C377B810055BF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7A74772C377B810055BF6E /* Chala_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7A74782C377B810055BF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7A74832C377B810055BF6E /* Chala_Watch_AppUITestsLaunchTests.swift in Sources */,
+				9D7A74812C377B810055BF6E /* Chala_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D7A74632C377B800055BF6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D7A745F2C377B800055BF6E /* Chala Watch App */;
+			targetProxy = 9D7A74622C377B800055BF6E /* PBXContainerItemProxy */;
+		};
+		9D7A74742C377B810055BF6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D7A745F2C377B800055BF6E /* Chala Watch App */;
+			targetProxy = 9D7A74732C377B810055BF6E /* PBXContainerItemProxy */;
+		};
+		9D7A747E2C377B810055BF6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D7A745F2C377B800055BF6E /* Chala Watch App */;
+			targetProxy = 9D7A747D2C377B810055BF6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9D7A74842C377B810055BF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D7A74852C377B810055BF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9D7A74872C377B810055BF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chala Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V2XHVEPAJY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chala;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IMW.Chala.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		9D7A74882C377B810055BF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chala Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V2XHVEPAJY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Chala;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IMW.Chala.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		9D7A748B2C377B810055BF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2XHVEPAJY;
+				INFOPLIST_KEY_CFBundleDisplayName = Chala;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IMW.Chala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9D7A748C2C377B810055BF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2XHVEPAJY;
+				INFOPLIST_KEY_CFBundleDisplayName = Chala;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IMW.Chala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D7A748E2C377B810055BF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2XHVEPAJY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IMW.Chala-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chala Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chala Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		9D7A748F2C377B810055BF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2XHVEPAJY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IMW.Chala-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chala Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chala Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		9D7A74912C377B810055BF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2XHVEPAJY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IMW.Chala-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Chala Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		9D7A74922C377B810055BF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V2XHVEPAJY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IMW.Chala-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Chala Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D7A74572C377B800055BF6E /* Build configuration list for PBXProject "Chala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7A74842C377B810055BF6E /* Debug */,
+				9D7A74852C377B810055BF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D7A74862C377B810055BF6E /* Build configuration list for PBXNativeTarget "Chala Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7A74872C377B810055BF6E /* Debug */,
+				9D7A74882C377B810055BF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D7A748A2C377B810055BF6E /* Build configuration list for PBXNativeTarget "Chala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7A748B2C377B810055BF6E /* Debug */,
+				9D7A748C2C377B810055BF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D7A748D2C377B810055BF6E /* Build configuration list for PBXNativeTarget "Chala Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7A748E2C377B810055BF6E /* Debug */,
+				9D7A748F2C377B810055BF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D7A74902C377B810055BF6E /* Build configuration list for PBXNativeTarget "Chala Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7A74912C377B810055BF6E /* Debug */,
+				9D7A74922C377B810055BF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D7A74542C377B800055BF6E /* Project object */;
+}
