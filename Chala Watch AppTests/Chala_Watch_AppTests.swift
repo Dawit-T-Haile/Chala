@@ -2,7 +2,7 @@
 //  Chala_Watch_AppTests.swift
 //  Chala Watch AppTests
 //
-//  Created by Abel Tadele on 7/4/24.
+//  Created by Dawit Tadele on 7/4/24.
 //
 
 import XCTest
