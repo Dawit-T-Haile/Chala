@@ -10,7 +10,7 @@ Notable features:
 - Lets you store workouts sessions
 
 <img width="1457" alt="image" src="https://github.com/user-attachments/assets/e5cff806-2b5e-402f-9a2e-945e435e4500">
-<img width="1457" alt="image" src="https://github.com/user-attachments/assets/133bb46a-065e-42c7-b1fa-fc8d26923aff">
-<img width="1455" alt="image" src="https://github.com/user-attachments/assets/c3780de3-a664-47a4-8bb1-8060a609f022">
-<img width="1456" alt="image" src="https://github.com/user-attachments/assets/d0ef094f-8441-47a3-9397-71152f40540b">
-<img width="1461" alt="image" src="https://github.com/user-attachments/assets/25c4b492-ddce-4fa2-95b7-b87afaba773c">
+<img width="1452" alt="image" src="https://github.com/user-attachments/assets/9f33fa71-0b52-475b-a3e0-9abb3531dbb8">
+<img width="1450" alt="image" src="https://github.com/user-attachments/assets/f3c53cd2-b03a-4727-bc05-0f54f71c76ed">
+<img width="1449" alt="image" src="https://github.com/user-attachments/assets/d6a5cb96-2098-4818-8767-5bbed69453c0">
+<img width="1453" alt="image" src="https://github.com/user-attachments/assets/d0de68f9-bc13-4297-b4c6-33a08c05867c">
