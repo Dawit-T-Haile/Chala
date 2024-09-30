@@ -14,3 +14,6 @@ Notable features:
 <img width="1450" alt="image" src="https://github.com/user-attachments/assets/f3c53cd2-b03a-4727-bc05-0f54f71c76ed">
 <img width="1449" alt="image" src="https://github.com/user-attachments/assets/d6a5cb96-2098-4818-8767-5bbed69453c0">
 <img width="1453" alt="image" src="https://github.com/user-attachments/assets/d0de68f9-bc13-4297-b4c6-33a08c05867c">
+
+Chala's interface provides a simple way view past workouts, start pause and resume new sessions.
+![2024-09-29 21 10 26](https://github.com/user-attachments/assets/70606925-6492-419c-8798-6ae6c02a2be8)
